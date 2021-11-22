@@ -110,6 +110,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold|italic"
+        android:background="@drawable/custom_rounded_corners"
         app:backgroundTint="@color/design_default_color_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
