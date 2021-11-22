@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143055380822",
+    "project_id": "aplikacija-garaza",
+    "storage_bucket": "aplikacija-garaza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143055380822:android:3c06df2e4b33a074b336f7",
+        "android_client_info": {
+          "package_name": "com.example.aplikacija_garaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143055380822-4jqn8ko1fojq98q3a6m2b2c9rh8b7o0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2uzG9zZTMZtBIvnu0knrSzcbOFt3rp5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143055380822-4jqn8ko1fojq98q3a6m2b2c9rh8b7o0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

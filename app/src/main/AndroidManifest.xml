@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikacija_garaza">
+
+    <!--dopuštenja koja aplikacija može imati-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--instanciranje logo-a apliakcije, naslova i pozadine-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="PAMETNA GARAŽA"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aplikacija_Garaza">
+
+        <!--deklaracija API ključa za Google Maps prikaz-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <!--deklaracija svih zaslona aplikacije-->
+        <activity
+            android:name=".GoogleMaps"
+            android:label="@string/title_activity_google_maps" />
+        <activity android:name=".Index"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".Register"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".GarazaSpansko"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".GarazaJarun"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".GarazaVoltino"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
