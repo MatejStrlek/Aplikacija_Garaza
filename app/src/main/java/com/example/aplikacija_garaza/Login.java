@@ -31,6 +31,7 @@ public class Login extends AppCompatActivity {
         buttonLogin = findViewById(R.id.buttonLogin);
         buttonGoBack = findViewById(R.id.buttonGoBackLogin);
 
+        //baza
         DB = new DBHelper(this);
 
         /* metoda OnClickListener, kada se pritisne gumb,
